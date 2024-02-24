@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+#maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#leftcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDE3D9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#logo {
+    margin: 30px;
+    margin-bottom: 140px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#textcontainer h2 {
+    width: 330px;
+    margin: 30px;
+    font-family: "poppins";
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+#textcontainer p {
+    width: 330px;
+    margin-left: 30px;
+    font-family: "poppins";
+    font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btnimages img {
+    margin-top: 40px;
+}
+
+#rightcontainer {
+    width: 50%;
+    background-image: url(./assets/Image/MAIN.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#rightcontainer1 {
+    width: 50%;
+    background-image: url(./assets/Image/Group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 260px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "poppins";
+    font-weight: 300;
+}
+
+#textcontent {
+    color: white;
+    font-size: 15px;
+    width: 180px;
+    margin-left: 50px;
+    font-weight: 300;
+    font-family: "poppins";
+}
+
+#textcontent h2 {
+    font-size: 30px;
+}
+
+#textcontent p {
+    font-weight: 300;
+    font-size: 15px;
 }
